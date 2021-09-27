@@ -96,7 +96,19 @@ public class Trader {
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
                 new Horse(),
-                new Horse()
+                new Horse(),
+                new Car(),
+                new Car(),
+                new Car(),
+                new Car(),
+                new Car(),
+                new Car(),
+                new Car(),
+                new Car(),
+                new Car(),
+                new Car(),
+                new Car(),
+                new Car(),
                 // TODO: Add Tradable objects here!
         );
 
