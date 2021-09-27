@@ -4,7 +4,7 @@ public class TimAllen implements Tradable, Domesticatable {
      */
     @Override
     public int getPrice() {
-        return 3;
+        return 4;
     }
 
     /**
