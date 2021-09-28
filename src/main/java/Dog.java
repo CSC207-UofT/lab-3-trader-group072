@@ -6,7 +6,8 @@ public class Dog implements Drivable, Domesticatable, Tradable {
     public Dog() {
         this.maxSpeed = 1;
     }
-
+    
+    @Override
     public String sound() {
         return "Woof!";
     }
