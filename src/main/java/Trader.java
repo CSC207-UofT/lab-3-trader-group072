@@ -108,8 +108,7 @@ public class Trader {
                 new Car(),
                 new Car(),
                 new Car(),
-                new Car(),
-                // TODO: Add Tradable objects here!
+                new Car()
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
