@@ -27,14 +27,14 @@ public class CarTest {
 
     @Test(timeout = 50)
     public void TestUpgradeSpeed() {
-        theRed.upgradeSpeed();
+        theRedOne.upgradeSpeed();
         assertEquals(510, theRedOne.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
         theRedOne.downgradeSpeed();
-        assertEquals(500, theRedOne.getMaxSpeed());
+        assertEquals(490, theRedOne.getMaxSpeed());
     }
 
     @Test(timeout = 50)
